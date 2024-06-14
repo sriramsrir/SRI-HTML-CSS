@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Pemesanan</title>
+	<link rel="stylesheet" href="CSS/pemesanan.css">
+</head>
+
+<body>
+	<div class="badan-utama">
+		<header>
+			<img class="logo" src="foto/logoo.png">
+			<h2> SRI'S BAKERY</h2>
+			<P> Alamat : Jalan Kranggan Bagusan No.3, RT 06 RW 03, Selopampang, Temanggung</p>
+			<p> No Tlp : 1234567890</p>
+			<p> Email : sriram@gmail.com</p>
+		</header>
+		<nav class="navigasi">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="pemesanan.html">Order</a></li>
+			</ul>
+		</nav>
+	</div>
+	<main>
+		<div class="judul">
+			<h2>Formulir Pemesanan</h2>
+		</div>
+		<section class="order-form">
+			<form>
+				<div class="form-row">
+					<div class="form-group">
+						<label for="nama">Nama:</label>
+						<input type="text" id="nama" name="nama" required>
+					</div>
+
+					<div class="form-group">
+						<label for="alamat">Alamat:</label>
+						<textarea id="alamat" name="alamat" required></textarea>
+					</div>
+
+					<div class="form-group">
+						<label for="noTelepon">No Telepon:</label>
+						<input type="tel" id="noTelepon" name="noTelepon" required>
+					</div>
+
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" required>
+					</div>
+				</div>
+
+				<label for="roti">Jenis Roti:</label>
+				<div class="form-row">
+					<p>1.Roti Kering</p>
+					<div class="form-group">
+						<label for="jumlah">Rasa:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Roti Tawar | Rp 25.000</option>
+							<option value="style2">Roti Gandum | Rp 30.000</option>
+							<option value="style3">Crispy Croissants | Rp 27.000</option>
+							<option value="style4">Hoagie Rolls | Rp 28.000</option>
+							<option value="style5">Roti Pisang | Rp 20.000</option>
+							<option value="style6">Pie Susu | Rp 23.000</option>
+							<option value="style7">Nastar | Rp 55.000</option>
+							<option value="style8">Kastengel | Rp 60.000</option>
+						</select>
+						<label for="jumlah">Jumlah:</label>
+						<input type="number" id="jumlah" name="jumlah" min="0" required>
+						<label for="harga">Harga:</label>
+						<input type="tel" id="harga" name="harga" required>
+					</div>
+
+					<div class="form-group">
+						<label for="jumlah">Rasa:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Roti Tawar | Rp 25.000</option>
+							<option value="style2">Roti Gandum | Rp 30.000</option>
+							<option value="style3">Crispy Croissants | Rp 27.000</option>
+							<option value="style4">Hoagie Rolls | Rp 28.000</option>
+							<option value="style5">Roti Pisang | Rp 20.000</option>
+							<option value="style6">Pie Susu | Rp 23.000</option>
+							<option value="style7">Nastar | Rp 55.000</option>
+							<option value="style8">Kastengel | Rp 60.000</option>
+						</select>
+						<label for="jumlah">Jumlah:</label>
+						<input type="number" id="jumlah" name="jumlah" min="0" required>
+						<label for="harga">Harga:</label>
+						<input type="tel" id="harga" name="harga" required>
+					</div>
+
+					<div class="form-group">
+						<label for="jumlah">Rasa:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Roti Tawar | Rp 25.000</option>
+							<option value="style2">Roti Gandum | Rp 30.000</option>
+							<option value="style3">Crispy Croissants | Rp 27.000</option>
+							<option value="style4">Hoagie Rolls | Rp 28.000</option>
+							<option value="style5">Roti Pisang | Rp 20.000</option>
+							<option value="style6">Pie Susu | Rp 23.000</option>
+							<option value="style7">Nastar | Rp 55.000</option>
+							<option value="style8">Kastengel | Rp 60.000</option>
+						</select>
+						<label for="jumlah">Jumlah:</label>
+						<input type="number" id="jumlah" name="jumlah" min="0" required>
+						<label for="harga">Harga:</label>
+						<input type="tel" id="harga" name="harga" required>
+					</div>
+				</div>
+
+				<div class="form-row">
+					<p>2 . Cup Cake</p>
+					<div class="form-group">
+						<label for="jumlah">Rasa:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Choklate Cupcake | Rp 25.000</option>
+							<option value="style2">Oreo Cupcake | Rp 22.000</option>
+							<option value="style3">Vanilla Cupcake | Rp 20.000</option>
+							<option value="style4">Hazelnut Cupcake | Rp 27.000</option>
+							<option value="style5">Strawberry Cupcake | Rp 22.000</option>
+							<option value="style6">Lemon Cupcake | Rp 20.000</option>
+							<option value="style7">Blueberry Cupcake | Rp 25.000</option>
+							<option value="style8">Caramel Cupcake | Rp 24.000</option>
+						</select>
+						<label for="jumlah">Jumlah:</label>
+						<input type="number" id="jumlah" name="jumlah" min="0" required>
+						<label for="harga">Harga:</label>
+						<input type="tel" id="harga" name="harga" required>
+					</div>
+
+					<div class="form-group">
+						<label for="jumlah">Rasa:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Choklate Cupcake | Rp 25.000</option>
+							<option value="style2">Oreo Cupcake | Rp 22.000</option>
+							<option value="style3">Vanilla Cupcake | Rp 20.000</option>
+							<option value="style4">Hazelnut Cupcake | Rp 27.000</option>
+							<option value="style5">Strawberry Cupcake | Rp 22.000</option>
+							<option value="style6">Lemon Cupcake | Rp 20.000</option>
+							<option value="style7">Blueberry Cupcake | Rp 25.000</option>
+							<option value="style8">Caramel Cupcake | Rp 24.000</option>
+						</select>
+						<label for="jumlah">Jumlah:</label>
+						<input type="number" id="jumlah" name="jumlah" min="0" required>
+						<label for="harga">Harga:</label>
+						<input type="tel" id="harga" name="harga" required>
+					</div>
+
+					<div class="form-group">
+						<label for="jumlah">Rasa:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Choklate Cupcake | Rp 25.000</option>
+							<option value="style2">Oreo Cupcake | Rp 22.000</option>
+							<option value="style3">Vanilla Cupcake | Rp 20.000</option>
+							<option value="style4">Hazelnut Cupcake | Rp 27.000</option>
+							<option value="style5">Strawberry Cupcake | Rp 22.000</option>
+							<option value="style6">Lemon Cupcake | Rp 20.000</option>
+							<option value="style7">Blueberry Cupcake | Rp 25.000</option>
+							<option value="style8">Caramel Cupcake | Rp 24.000</option>
+						</select>
+						<label for="jumlah">Jumlah:</label>
+						<input type="number" id="jumlah" name="jumlah" min="0" required>
+						<label for="harga">Harga:</label>
+						<input type="tel" id="harga" name="harga" required>
+					</div>
+				</div>
+
+				<div class="form-row">
+					<p>3.Birthday Cake</p>
+					<div class="form-group">
+						<label for="jumlah">Rasa:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Strawberry Cake | Rp 175.000</option>
+							<option value="style2">Green Tea Cake | Rp 155.000</option>
+							<option value="style3">Blueberry Cake | Rp 215.000</option>
+							<option value="style4">Orange Cake | Rp 127.000</option>
+							<option value="style5">Chocolate Drip Cupcake | Rp 185.000</option>
+							<option value="style6">Oreo Cake | Rp 120.000</option>
+							<option value="style7">Choklat Cake | Rp 140.000</option>
+							<option value="style8">Black Forest Cake | Rp 240.000</option>
+						</select>
+						<label for="jumlah">Jumlah:</label>
+						<input type="number" id="jumlah" name="jumlah" min="0" required>
+						<label for="harga">Harga:</label>
+						<input type="tel" id="harga" name="harga" required>
+					</div>
+
+					<div class="form-group">
+						<label for="jumlah">Rasa:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Strawberry Cake | Rp 175.000</option>
+							<option value="style2">Green Tea Cake | Rp 155.000</option>
+							<option value="style3">Blueberry Cake | Rp 215.000</option>
+							<option value="style4">Orange Cake | Rp 127.000</option>
+							<option value="style5">Chocolate Drip Cupcake | Rp 185.000</option>
+							<option value="style6">Oreo Cake | Rp 120.000</option>
+							<option value="style7">Choklat Cake | Rp 140.000</option>
+							<option value="style8">Black Forest Cake | Rp 240.000</option>
+						</select>
+						<label for="jumlah">Jumlah:</label>
+						<input type="number" id="jumlah" name="jumlah" min="0" required>
+						<label for="harga">Harga:</label>
+						<input type="tel" id="harga" name="harga" required>
+					</div>
+
+					<div class="form-group">
+						<label for="jumlah">Rasa:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Strawberry Cake | Rp 175.000</option>
+							<option value="style2">Green Tea Cake | Rp 155.000</option>
+							<option value="style3">Blueberry Cake | Rp 215.000</option>
+							<option value="style4">Orange Cake | Rp 127.000</option>
+							<option value="style5">Chocolate Drip Cupcake | Rp 185.000</option>
+							<option value="style6">Oreo Cake | Rp 120.000</option>
+							<option value="style7">Choklat Cake | Rp 140.000</option>
+							<option value="style8">Black Forest Cake | Rp 240.000</option>
+						</select>
+						<label for="jumlah">Jumlah:</label>
+						<input type="number" id="jumlah" name="jumlah" min="0" required>
+						<label for="harga">Harga:</label>
+						<input type="tel" id="harga" name="harga" required>
+					</div>
+				</div>
+
+				<div class="form-row">
+					<p>4.Wedding Cake</p>
+					<div class="form-group">
+						<label for="jumlah">Style:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Style 1 | Rp 7.000.000</option>
+							<option value="style2">Style 2 | Rp 8.500.000</option>
+							<option value="style3">Style 3 | Rp 7.500.000</option>
+							<option value="style4">Style 4 | Rp 8.000.000</option>
+							<option value="style5">Style 5 | Rp 12.000.000</option>
+							<option value="style6">Style 6 | Rp 10.000.000</option>
+							<option value="style7">Style 7 | Rp 14.500.000</option>
+							<option value="style8">Style 8 | Rp 5.000.000</option>
+						</select>
+						<label for="jumlah">Jumlah:</label>
+						<input type="number" id="jumlah" name="jumlah" min="0" required>
+						<label for="harga">Harga:</label>
+						<input type="tel" id="harga" name="harga" required>
+					</div>
+
+					<div class="form-group">
+						<label for="jumlah">Style:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Style 1 | Rp 7.000.000</option>
+							<option value="style2">Style 2 | Rp 8.500.000</option>
+							<option value="style3">Style 3 | Rp 7.500.000</option>
+							<option value="style4">Style 4 | Rp 8.000.000</option>
+							<option value="style5">Style 5 | Rp 12.000.000</option>
+							<option value="style6">Style 6 | Rp 10.000.000</option>
+							<option value="style7">Style 7 | Rp 14.500.000</option>
+							<option value="style8">Style 8 | Rp 5.000.000</option>
+						</select>
+						<label for="jumlah">Jumlah:</label>
+						<input type="number" id="jumlah" name="jumlah" min="0" required>
+						<label for="harga">Harga:</label>
+						<input type="tel" id="harga" name="harga" required>
+					</div>
+
+					<div class="form-group">
+						<label for="jumlah">Style:</label>
+						<select id="roti" name="roti" required>
+							<option value="tidak_pesan">-</option>
+							<option value="request">Request</option>
+							<option value="style1">Style 1 | Rp 7.000.000</option>
+							<option value="style2">Style 2 | Rp 8.500.000</option>
+							<option value="style3">Style 3 | Rp 7.500.000</option>
+							<option value="style4">Style 4 | Rp 8.000.000</option>
+							<option value="style5">Style 5 | Rp 12.000.000</option>
+							<option value="style6">Style 6 | Rp 10.000.000</option>
+							<option value="style7">Style 7 | Rp 14.500.000</option>
+							<option value="style8">Style 8 | Rp 5.000.000</option>
+						</select>
+						<label for="jumlah">Jumlah:</label>
+						<input type="number" id="jumlah" name="jumlah" min="0" required>
+						<label for="harga">Harga:</label>
+						<input type="harga" id="harga" name="harga" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="total">Total:</label>
+					<input type="harga" id="total" name="total" required>
+				</div>
+				<div class="form-group">
+					<label for="diskon">Diskon:</label>
+					<input type="persen" id="diskon" name="diskon" required>
+				</div>
+				<div class="form-group">
+					<label for="totbayar">Total Bayar:</label>
+					<input type="harga" id="totbayar" name="totbayar" required>
+				</div>
+				<div class="form-group">
+					<label for="uangbayar">Uang Bayar:</label>
+					<input type="harga" id="uangbayar" name="uangbayar" required>
+				</div>
+				<div class="form-group">
+					<label for="kembalian">Kembalian:</label>
+					<input type="harga" id="kembalian" name="kembalian" required>
+				</div>
+				<button type="submit">Pesan Sekarang</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>Contact : 088221168095 | Follow instagram : DB_Devis.Bakery</p>
+		<p>Addres: Kranggan RT 06 RW 03, Bagusan, Selopampang, Temanggung</p>
+		<p>&copy; 2024 Devi's Bakery. Hak Cipta Dilindungi.</p>
+	</footer>
+</body>
+
+</html>
